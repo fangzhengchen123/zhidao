@@ -1,0 +1,61 @@
+.wrapper .titalBar{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+
+
+.wrapper .nextAdvertisement .advertisement {
+    width: 100%;
+    height: 40vw;
+    padding-top: 5vw;
+    padding-left: 5vw;
+}
+
+.wrapper .nextAdvertisement .advertisement .word{
+    height: 15vw;
+    width: 40vw;
+    float: right;
+    font-size: 4vw;
+    word-wrap: break-word;
+    font-family: 微软雅黑;
+    padding-right: 17vw;
+    margin-top: 0vw;
+}
+
+
+.wrapper .buttomColumn{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.wrapper .buttomColumn li{
+    /*li本身的尺寸完全由内容撑起*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .buttomColumn li p{
+    font-size: 2.8vw;
+}
+.wrapper .buttomColumn li i{
+    font-size: 5vw;
+}

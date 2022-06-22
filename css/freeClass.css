@@ -1,0 +1,25 @@
+.wrapper .titalBar .line{
+    width: 100%;
+    border-style: dotted;
+    box-shadow: #AEAEAE;
+    background-color: white;
+}
+
+.wrapper .titalBar{
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+}
+
+.wrapper .content{
+    width: 100%;
+    padding-top: 60vw;
+}
+
+.wrapper .content .contentCard{
+    width: 40%;
+    height: 60vw;
+    padding-top: 5vw;
+    padding-left: 5vw;
+    float: left;
+}

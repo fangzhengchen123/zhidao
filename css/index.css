@@ -1,0 +1,299 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .titalBar{
+    width: 100%;
+    height: 13vw;
+
+}
+
+.wrapper .titalBar .searchBar{
+    width: 80%;
+    height: 9vw;
+    background-color: ghostwhite;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 3.5vw;
+    color: #AEAEAE;
+    font-family: "宋体";
+    /*此样式是让文本选中状态无效*/
+    user-select: none;
+
+    float: left;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+
+.wrapper .titalBar .barcode{
+    width: 10vw;
+    height: 9vw;
+    font-size: 8vw;
+    float: left;
+    margin-top: 1vw;
+    margin-left: 6vw;
+}
+
+
+
+.wrapper .catalogue .jingxuan{
+    margin-top: 8vw;
+    font-size: 7vw;
+    margin-left: 3.5vw;
+    color: green;
+    width: 20vw;
+    height: 10vw;
+    float: left;
+}
+
+.wrapper .catalogue .vip{
+    margin-top: 10vw;
+    font-size: 5vw;
+    margin-left: 3.5vw;
+    width: 23vw;
+    height: 10vw;
+    float: left;
+}
+
+.wrapper .catalogue .class{
+    margin-top: 10vw;
+    font-size: 5vw;
+    margin-left: 1vw;
+    width: 10vw;
+    height: 10vw;
+    float: left;
+}
+
+.wrapper .catalogue .zhibo{
+    margin-top: 10vw;
+    font-size: 5vw;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 10vw;
+    float: left;
+}
+
+.wrapper .advertisement img{
+    height: 50vw;
+    width: 95vw;
+}
+
+.wrapper .chooseBar{
+    font-size: 3vw;
+    height: 30vw;
+    width: 100%;
+}
+
+.wrapper .chooseBar .first{
+    float: left;
+}
+
+.wrapper .chooseBar .first img{
+    height: 15vw;
+    width: 17vw;
+    margin-left: 7.5vw;
+}
+
+.wrapper .chooseBar .first p{
+    margin-left: 7.5vw;
+}
+
+.wrapper .chooseBar .second{
+    float: left;
+}
+
+
+.wrapper .chooseBar .second img{
+    height: 15vw;
+    width: 17vw;
+    margin-left: 3.5vw;
+}
+
+.wrapper .chooseBar .second p{
+    margin-left: 6.1vw;
+}
+
+.wrapper .chooseBar .third{
+    float: left;
+}
+
+
+.wrapper .chooseBar .third img{
+    height: 15vw;
+    width: 19vw;
+    margin-left: 7vw;
+}
+
+.wrapper .chooseBar .third p{
+    margin-left: 6.1vw;
+}
+
+.wrapper .chooseBar .four{
+    float: left;
+}
+
+
+.wrapper .chooseBar .four img{
+    height: 15vw;
+    width: 17vw;
+    margin-left: 3.5vw;
+}
+
+.wrapper .chooseBar .four p{
+    margin-left: 6.1vw;
+}
+
+.wrapper .Headlines{
+    width: 90%;
+    height: 9vw;
+    background-color: ghostwhite;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 4vw;
+    color: black;
+    font-family: "宋体";
+    /*此样式是让文本选中状态无效*/
+
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+
+.wrapper .goodClass{
+    width: 100%;
+    height: 10vw;
+    margin-top: 4vw;
+}
+
+.wrapper .goodClass .popularClass{
+    font-size: 5vw;
+    margin-top: 3vw;
+    float: left;
+    margin-left: 3vw;
+
+}
+
+.wrapper .goodClass .all{
+    font-size: 3vw;
+    margin-top: 5vw;
+    float: left;
+    margin-left: 60vw;
+}
+
+.wrapper .classBar{
+    grid-row-gap: 30vw;
+}
+
+.wrapper .classBar .firstClass{
+    width: 46vw;
+    height: 45vw;
+    margin-left: 3vw;
+    margin-top: 3vw;
+    float: left;
+}
+
+.wrapper .classBar .firstClass p{
+    width: 33vw;
+    font-size: 3vw;
+    margin-left: 3vw;
+}
+
+.wrapper .classBar .firstClass .money{
+    width: 33vw;
+    font-size: 4vw;
+    margin-left: 3vw;
+    color: red;
+}
+
+
+.wrapper .IT{
+    width: 100%;
+    height: 10vw;
+}
+
+.wrapper .IT .itClass{
+    font-size: 5vw;
+    margin-top: 9vw;
+    float: left;
+    margin-left: 3vw;
+
+}
+
+.wrapper .IT .more{
+    font-size: 3vw;
+    margin-top: 11vw;
+    float: left;
+    margin-left: 60vw;
+}
+
+.wrapper .ITContent{
+    width: 100%;
+    height: 100vw;
+}
+
+.wrapper .ITContent .classOne .content {
+    float: right;
+    margin-right: 3vw;
+    margin-top: -2vw;
+}
+
+.wrapper .ITContent .classTwo{
+    margin-top: 5vw;
+}
+
+.wrapper .ITContent .classTwo .content {
+    float: right;
+    margin-right: 3vw;
+    margin-top: -2vw;
+}
+
+.wrapper .ITContent .classThird{
+    margin-top: 5vw;
+}
+
+.wrapper .ITContent .classThird .content {
+    float: right;
+    margin-right: 3vw;
+    margin-top: -2vw;
+    border-left: 10vw;
+}
+
+
+.wrapper .bottonColumn{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .bottonColumn li{
+    /*li本身的尺寸完全由内容撑起*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .bottonColumn li p{
+    font-size: 2.8vw;
+}
+.wrapper .bottonColumn li i{
+    font-size: 5vw;
+}
