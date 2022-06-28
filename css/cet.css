@@ -1,0 +1,116 @@
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper .titalBar{
+    width: 100%;
+    height: 13vw;
+
+}
+
+.wrapper .titalBar .searchBar{
+    width: 80%;
+    height: 9vw;
+    background-color: ghostwhite;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+
+    font-size: 3.5vw;
+    color: #AEAEAE;
+    font-family: "宋体";
+    /*此样式是让文本选中状态无效*/
+    user-select: none;
+
+    float: left;
+    margin-top: 3vw;
+    margin-left: 3vw;
+}
+
+.wrapper .titalBar .barcode{
+    width: 10vw;
+    height: 9vw;
+    font-size: 8vw;
+    float: left;
+    margin-top: 1vw;
+    margin-left: 6vw;
+}
+
+
+
+.wrapper .catalogue .vip{
+    margin-top: 10vw;
+    font-size: 5vw;
+    margin-left: 3.5vw;
+    width: 23vw;
+    height: 10vw;
+    float: left;
+}
+
+.wrapper .catalogue .class{
+    margin-top: 10vw;
+    font-size: 5vw;
+    margin-left: 1vw;
+    width: 10vw;
+    height: 10vw;
+    float: left;
+}
+
+.wrapper .catalogue .zhibo{
+    margin-top: 8vw;
+    font-size: 7vw;
+    margin-left: 10vw;
+    width: 22vw;
+    color: green;
+    height: 10vw;
+    float: left;
+}
+
+.wrapper .catalogue .jingxuan{
+    margin-top: 10vw;
+    font-size: 5vw;
+    margin-left: 1vw;
+    width: 20vw;
+    height: 10vw;
+    float: left;
+}
+
+.wrapper .text{
+    margin-top: 5vw;
+    margin-left: 3vw;
+}
+
+
+.wrapper .bottonColumn{
+    width: 100%;
+    height: 14vw;
+    border-top: solid 1px #DDD;
+    background-color: #fff;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper .bottonColumn li{
+    /*li本身的尺寸完全由内容撑起*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vw;
+    color: #999;
+    user-select: none;
+    cursor: pointer;
+}
+.wrapper .bottonColumn li p{
+    font-size: 2.8vw;
+}
+.wrapper .bottonColumn li i{
+    font-size: 5vw;
+}
