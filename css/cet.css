@@ -6,7 +6,12 @@
 .wrapper .titalBar{
     width: 100%;
     height: 13vw;
-
+    background-color: #DDDDDD;
+}
+.wrapper .catalogue{
+    width: 100%;
+    height: 18vw;
+    background-color: #DDDDDD;
 }
 
 .wrapper .titalBar .searchBar{
